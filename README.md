@@ -11,7 +11,7 @@
 #### 2. The ORM relationship between the entities(cinemas, movies,showtimes) are defined and shown in the models created under App > Models which are Cinemas, Movies, and ShowTimes. Also the foreign keys to establish these reations were defined in the database migrations.
 
 	 
-#### Live link: https://adura-shop.000webhostapp.com/shop
+#### Live link: http://showtime-app.000webhostapp.com/cinemas
 
 #### Logged-in Users can make create new movie listings, view details, update and delete movie listings.
 
