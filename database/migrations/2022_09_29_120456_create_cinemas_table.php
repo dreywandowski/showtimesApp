@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateShowtimesTable extends Migration
+class CreateCinemasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,14 @@ class CreateShowtimesTable extends Migration
      */
     public function up()
     {
-        Schema::create('showtimes', function (Blueprint $table) {
+        Schema::create('cinemas', function (Blueprint $table) {
             $table->id();
-            $table->string('movie');
-            $table->string('cinema');
-            $table->dateTime('showtime');
-            $table->timestamps();
-            
+            $table->string('name');
+            $table->string('location');
+            $table->foreign('name')
+                ->references('cinema')
+                ->on('show_times')
+                ->onDelete('cascade');
         });
     }
 
@@ -30,6 +31,6 @@ class CreateShowtimesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('showtimes');
+        Schema::dropIfExists('cinemas');
     }
 }

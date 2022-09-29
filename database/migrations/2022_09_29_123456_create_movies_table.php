@@ -19,7 +19,7 @@ class CreateMoviesTable extends Migration
             $table->string('description');
             $table->foreign('name')
                 ->references('movie')
-                ->on('showtimes')
+                ->on('show_times')
                 ->onDelete('cascade');
         });
     }

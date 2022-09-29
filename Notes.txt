@@ -1,0 +1,33 @@
+1. How to Install LAMP (Linux, Apache, MySql & PHP) on Azure with Ubuntu 18.04
+=> https://usefulangle.com/post/326/azure-install-linux-apache-mysql-php-phpmyadmin-lamp-stack-ubuntu-18-04
+
+2. Linux error: Your password does not satisfy the current policy requirements
+=> https://stackoverflow.com/questions/43094726/your-password-does-not-satisfy-the-current-policy-requirements
+
+3. ERROR 1698 (28000): Access denied for user 'root'@'localhost' at Ubuntu 18.04
+=> https://askubuntu.com/questions/1029177/error-1698-28000-access-denied-for-user-rootlocalhost-at-ubuntu-18-04
+
+4. MySQL validate_password_policy unknown system variable
+=> https://stackoverflow.com/questions/55237257/mysql-validate-password-policy-unknown-system-variable
+
+5. Linux: How do I navigate between directories in terminal?
+=> https://askubuntu.com/questions/232442/how-do-i-navigate-between-directories-in-terminal
+
+6. How To Set Up Apache Virtual Hosts on Ubuntu 18.04 [Quickstart]
+=> https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-18-04-quickstart
+
+7. How to Deploy Laravel Project with Apache on Ubuntu
+=> https://www.interserver.net/tips/kb/deploy-laravel-project-apache-ubuntu/
+
+8. Laravel /public Folder: How to Configure Domains for in Apache/Nginx
+=> https://blog.quickadminpanel.com/laravel-public-folder-how-to-configure-domains-for-in-apachenginx/
+
+9. How to fix Error: laravel.log could not be opened?
+=> https://stackoverflow.com/questions/23411520/how-to-fix-error-laravel-log-could-not-be-opened
+
+10. Linux: chmod changing permissions of root Operation not permitted
+=> https://www.edureka.co/community/81090/chmod-changing-permissions-of-root-operation-not-permitted
+
+11. SQL Error 1822 : Failed to add the foreign key constaint. Missing index for constraint BUT the index EXISTS
+=> https://stackoverflow.com/questions/35368643/sql-error-1822-failed-to-add-the-foreign-key-constaint-missing-index-for-cons
+

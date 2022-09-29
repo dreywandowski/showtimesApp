@@ -14,12 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 
 */
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
 });
+*/
 
 
-
+// index page
+Route::get('/', [App\Http\Controllers\MovieController::class, 'index'])->middleware('auth');
 
 
 // index page
